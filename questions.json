@@ -1,0 +1,64 @@
+{
+    "questions":[ {"question":" Quelle est la bonne syntaxe pour afficher <Hello World> en Python ?",
+    "options":[" print('Hello World')","echo('Hello World')","printf('Hello World')"],
+    "reponse":"print('Hello World')"
+
+},
+    { "question":"Quelle est la valeur de len([1, 2, 3]) ?",
+      "options":["2","3","Erreur"],
+      "reponse":"3"
+
+    },
+    { "question":"QCM : Quel type de données est renvoyé par input() ?",
+      "options":[" int","str","float","bool"],
+      "reponse":"str"
+
+    },
+    {"question":"Quelle est la sortie de : print(type(5)) ",
+      "options":[" class 'int' ","class 'str' ","class 'float' "],
+      "reponse":" class 'int' "
+    },
+     {
+            "question": "Que renvoie list(range(2, 10, 2)) ?",
+            "options": [
+                " [2, 4, 6, 8]",
+                " [2, 3, 4, 5, 6, 7, 8, 9]",
+                " [2, 10, 2]",
+                " Erreur"
+            ],
+            "reponse": "[2, 4, 6, 8]"
+        },
+        {
+            "question": "Quelle est la sortie de : x = [1, 2, 3]; y = x; y.append(4); print(x) ?",
+            "options": [
+                " [1, 2, 3]",
+                " [1, 2, 3, 4]",
+                " Erreur",
+                " [4]"
+            ],
+            "reponse": " [1, 2, 3, 4]"
+        },
+        {
+            "question": "Quelle est la différence entre is et == en Python ?",
+            "options": [
+                " is compare les valeurs, == compare les identités",
+                " is compare les identités, == compare les valeurs",
+                " Les deux comparent les valeurs",
+                " Les deux comparent les identités"
+            ],
+            "reponse": " is compare les identités, == compare les valeurs"
+        },
+        {
+            "question": "Quelle est la sortie de : print([i for i in range(5) if i % 2 == 0]) ?",
+            "options": [
+                " [0, 2, 4]",
+                " [1, 3]",
+                " [0, 1, 2, 3, 4]",
+                " Erreur"
+            ],
+            "reponse": " [0, 2, 4]"
+        }
+
+
+    ]
+}
